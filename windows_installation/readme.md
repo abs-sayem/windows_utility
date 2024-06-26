@@ -11,16 +11,5 @@
     * **`[NB]`** Let as it is if you don't understand anything.
 
 ### **Debloat After Usual Installation**
-* Open `cmd` as administrator and run the code:
-
-```
-irm https://christitus.com/win | iex
-```
-
-or
-
-```
-iwr -useb https://christitus.com/win | iex
-```
-
-If the prompt doesn't work or for more details, visit: `[christitus's github page]`(https://github.com/ChrisTitusTech/winutil)
+* Open `cmd` as administrator and run the code: `irm https://christitus.com/win | iex` or `iwr -useb https://christitus.com/win | iex`
+* If the prompt doesn't work or for more details, visit: [christitus's github page](https://github.com/ChrisTitusTech/winutil)
