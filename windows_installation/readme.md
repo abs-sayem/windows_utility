@@ -23,4 +23,4 @@ or
 iwr -useb https://christitus.com/win | iex
 ```
 
-`If the prompt doesn't work or for more details, visit: [christitus's github page](https://github.com/ChrisTitusTech/winutil)`
+If the prompt doesn't work or for more details, visit: `[christitus's github page]`(https://github.com/ChrisTitusTech/winutil)
