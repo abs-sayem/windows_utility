@@ -11,5 +11,4 @@
     * **`[NB]`** Let as it is if you don't understand anything.
 
 ### **Debloat After Installation**
-* Open `cmd` as administrator and run the code:
-> `iwr -useb https://christitus.com/win | iex` or `irm www.christitus.com/win | iex`
+* Open `cmd` as administrator and run the code: `iwr -useb https://christitus.com/win | iex` or `irm www.christitus.com/win | iex`
