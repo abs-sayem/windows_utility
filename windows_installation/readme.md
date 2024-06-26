@@ -12,3 +12,22 @@
 
 ### **Debloat After Installation**
 * Open `cmd` as administrator and run the code: `iwr -useb https://christitus.com/win | iex` or `irm www.christitus.com/win | iex`
+<div style="position: relative;">
+  <pre><code id="codeBlock">
+function helloWorld() {
+  console.log("Hello, world!");
+}
+  </code></pre>
+  <button onclick="copyCode()" style="position: absolute; top: 0; right: 0;">Copy</button>
+</div>
+
+<script>
+  function copyCode() {
+    const code = document.getElementById('codeBlock').innerText;
+    navigator.clipboard.writeText(code).then(() => {
+      alert('Code copied to clipboard');
+    }).catch(err => {
+      console.error('Failed to copy code: ', err);
+    });
+  }
+</script>
