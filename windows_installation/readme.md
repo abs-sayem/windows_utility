@@ -11,5 +11,10 @@
     * **`[NB]`** Let as it is if you don't understand anything.
 
 ### **Debloat After Installation**
-* Open `cmd` as administrator and run the code: `iwr -useb https://christitus.com/win | iex` or `irm www.christitus.com/win | iex`
-    <pre><code id="codeBlock">iwr -useb https://christitus.com/win | iex</code> </pre><button onclick="copyCode()"></button>
+* Open `cmd` as administrator and run the code:
+<div style="display: flex; justify-content: center;">
+  <div style="position: relative; width: max-content; margin: 20px;">
+    <pre><code id="codeBlock">iwr -useb https://christitus.com/win | iex</code></pre>
+    <button onclick="copyCode()">Copy</button>
+  </div>
+</div>
