@@ -2,7 +2,7 @@
 * Paste the script in to a text file, Replace the font_name (your preffered) and save the file with `.reg` extension
 * Double click the reg file and press `ok` everytime
 * Restart your pc
-**`Script`**
+
 ```
 Windows Registry Editor Version 5.00
 
@@ -21,7 +21,7 @@ Windows Registry Editor Version 5.00
 ```
 
 #### **Back to Default Font**
-**`Script`**
+
 ```
 Windows Registry Editor Version 5.00
 
