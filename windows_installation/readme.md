@@ -14,5 +14,5 @@
 * Open `cmd` as administrator and run the code: `iwr -useb https://christitus.com/win | iex` or `irm www.christitus.com/win | iex`
 <div style="position: relative;">
   <pre><code id="codeBlock">iwr -useb https://christitus.com/win | iex</code></pre>
-  <button onclick="copyCode()" style="position: absolute; top: 0; right: 0;">Copy</button>
+  <button onclick="copyCode()"></button>
 </div>
