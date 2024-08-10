@@ -37,6 +37,9 @@ With the xml file we also found two other files. One is `setup.exe` and another 
 To activate the office, I prefer using the kms activation script. Search `bit.ly/office2019.txt` in the web for office 2019 activation. Copy the script from any of the page and save the script in text file and save the file with `.cmd` extension. Then run the cmd file as administrator. If the script does not work, try another script.
 
 #### **For Office 2024**
+##### **Configure xml File Setting**
+The configuration process is same as earlier except one thing. This office 2024 allows activation while installing. To do so [visit the microsoft official site](https://learn.microsoft.com/en-us/office/ltsc/preview/install-ltsc-preview) and use the given key for office ltsc 2024 in the `Use KMS to activate` section of `Activate Office LTSC preview`.
+##### **Run the Setup File**
 After the configuration of xml setting, open the cmd as administrator and go to the directory of the office file.
 
     cd directory_path
