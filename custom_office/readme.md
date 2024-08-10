@@ -1,7 +1,7 @@
-#### Install Custom Office
+### Install Custom Office
 Most of us don't need other office products except **Word**, **Excel**, **PowerPoint** and for some users **Visio**. So, it is wise to install just needed products rather than all the products come with full version (about 7-10 products). To install custom office `extract one of the office file` and follow the steps:
 `[The installation needs internet connection as it will download the products from web]`
-##### **For Office 2019 and 2021**
+#### **For Office 2019 and 2021**
 **Configure xml File Setting**
 
 Open the configuartion file in notepad and you will see couple of lines code:
@@ -39,7 +39,7 @@ With the xml file we also found two other files. One is `setup.exe` and another 
 
 To activate the office, I prefer using the kms activation script. Search `bit.ly/office2019.txt` in the web for office 2019 activation. Copy the script from any of the page and save the script in text file and save the file with `.cmd` extension. Then run the cmd file as administrator. If the script does not work, try another script.
 
-##### **For Office 2024**
+#### **For Office 2024**
 After the configuration of xml setting, open the cmd as administrator and go to the directory of the office file.
 
     cd directory_path
