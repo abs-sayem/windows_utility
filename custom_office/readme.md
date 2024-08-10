@@ -41,7 +41,11 @@ To activate the office, I prefer using the kms activation script. Search `bit.ly
 
 ##### **For Office 2024**
 After the configuration of xml setting, open the cmd as administrator and go to the directory of the office file.
+
     `cd directory_path`
+
 And run the command:
+
     `.\setup.exe /configure office2024_configuration.xml`
+    
 It will pop up a window which will show the setup progress.
