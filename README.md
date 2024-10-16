@@ -9,3 +9,4 @@ Windows Installation, Debloat, Customization, Troubleshooting, Command Prompts
     * I have office 2019 and 2021 custom file here.
 * **[Windows Customization](https://github.com/abs-sayem/windows_utility/tree/main/windows_customization)**
     * Change the font of the windows using registry edit.
+    * Transperancy effect on Taskbar, Start Menu and File Explorer.
