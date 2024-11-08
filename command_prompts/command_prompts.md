@@ -16,8 +16,15 @@ There is an issue of partition confliction (GPT/MBR) during the windows installa
 
 ## **Troubleshoot**
 **Universal Troubleshoot:** `sfc /scannow` [if found corrept files, restart] <br>
-**Restore Health:** `DISM /Online /Cleanup-Image /RestoreHealth` [after finish, restart]
+**Restore Health:** `DISM /Online /Cleanup-Image /RestoreHealth` [after finished, restart]
 
 ## **Activation (Windows and Office)**
 * Open the `cmd` as administrator
 * Run the script and follow the instruction: `irm https://get.activated.win | iex`
+
+## **Debloate Windows**
+* Open `cmd` and run the command: `irm www.christitus.com/win | iex`
+* It will open a new window, go to the tweeks part and apply any option you want. If you are not familier choose one from:
+* `Standard`: It debloates most of the services we usually not required
+* `Minimal`: It is a minimal option of standard debloat
+* You can customize the setting os both 'standard' and 'minimal' options if you know.
