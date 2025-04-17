@@ -34,7 +34,11 @@ From here you can exclude the office products you don't need. In this xml file I
 With the xml file we also found two other files. One is `setup.exe` and another is `start.cmd` file. Double click any one of them and it will pop up a window which will show the installation progress.
 
 #### **`Activate the Office`**
-To activate the office, I prefer using the kms activation script. Search `bit.ly/office2019.txt` in the web for office 2019 activation. Copy the script from any of the page and save the script in text file and save the file with `.cmd` extension. Then run the cmd file as administrator. If the script does not work, try another script.
+1. Open terminal as administrator and run the following command: it will pop a window that provides options of activation, just press the corresponding numbers. *`It also activates the windows.`*
+
+  irm https://get.activated.win | iex
+
+2. Or use the kms activation script. Search `bit.ly/office2019.txt` in the web for office 2019 activation. Copy the script from any of the page and save the script in text file and save the file with `.cmd` extension. Then run the cmd file as administrator. If the script does not work, try another script.
 
 ### **For Office 2024**
 #### **`Configure xml File Setting`**
