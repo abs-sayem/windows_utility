@@ -36,7 +36,7 @@ With the xml file we also found two other files. One is `setup.exe` and another 
 #### **`Activate the Office`**
 1. Open terminal as administrator and run the following command: it will pop a window that provides options of activation, just press the corresponding numbers. *`It also activates the windows.`*
 
-  irm https://get.activated.win | iex
+    irm https://get.activated.win | iex
 
 2. Or use the kms activation script. Search `bit.ly/office2019.txt` in the web for office 2019 activation. Copy the script from any of the page and save the script in text file and save the file with `.cmd` extension. Then run the cmd file as administrator. If the script does not work, try another script.
 
