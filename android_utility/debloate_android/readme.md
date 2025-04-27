@@ -11,49 +11,169 @@ For more details check [How to install ADB on Windows, macOS, and Linux](https:/
 - `opengl` provides a helpful description for most of the apps. Read these descriptions to understand each app's purpose and decide whether to keep it or not.
 - I’m sharing a list of apps I found unnecessary based on my experience. You can consider uninstalling them, but please do your own research as I might not be entirely accurate. *`Also, the list of necessary apps may vary for each individual.`*
 
-```
-01. com.android.hotwordenrollment.okgoogle  
-02. com.android.hotwordenrollment.xgoogle  
-03. com.android.mms  
-04. com.android.sharedstoragebackup  
-05. com.android.traceur  
-06. com.android.wallpaper.livepicker  
-07. com.facebook.appmanager  
-08. com.facebook.services  
-09. com.facebook.system  
-10. com.google.android.apps.googleassistant  
-11. com.google.android.apps.nbu.paisa.user  
-12. com.google.android.apps.safetyhub  
-13. com.google.android.apps.subscriptions.red 
-14. com.google.android.ext.shared  
-15. com.google.android.googlequicksearchbox  
-16. com.google.android.marvin.talkback  
-17. com.google.android.onetimeinitializer  
-18. com.google.android.printservice.recommendation  
-19. com.google.mainline.adservices  
-20. com.mi.android.globalFileexplorer  
-21. com.mi.healthglobal  
-22. com.miui.analytics  
-23. com.miui.backup  
-24. com.miui.cleaner  
-25. com.miui.cloudbackup  
-26. com.miui.cloudservice   
-27. com.miui.daemon  
-28. com.miui.freeform  
-29. com.miui.global.packageinstaller  
-30. com.miui.guardprovider  
-31. com.miui.micloudsync  
-32. com.miui.miservice  
-33. com.miui.msa.global  
-34. com.miui.player  
-35. com.miui.touchassistant  
-36. com.miui.yellowpage  
-37. com.xiaomi.account  
-38. com.xiaomi.calendar 
-39. com.xiaomi.glgm  
-40. com.xiaomi.joyose  
-41. com.xiaomi.mi_connect_service  
-42. com.xiaomi.mipicks  
-43. com.xiaomi.payment  
-44. org.ifaa.aidl.manager
-```
+<table>
+    <tr>
+        <th>App/Service Name</th>
+        <th>Package Name</th>
+    </tr>
+    <tr>
+        <td>Google Assistant</td>
+        <td>com.android.hotwordenrollment.okgoogle<br>com.android.hotwordenrollment.xgoogle<br>com.google.android.apps.googleassistant</td>
+    </tr>
+    <tr>
+        <td>MMS Service</td>
+        <td>com.android.mms</td>
+    </tr>
+    <tr>
+        <td>Shared Storage Backup</td>
+        <td>com.android.sharedstoragebackup</td>
+    </tr>
+    <tr>
+        <td>System Tracing</td>
+        <td>com.android.traceur</td>
+    </tr>
+    <tr>
+        <td>Live Wallpaper Picker</td>
+        <td>com.android.wallpaper.livepicker</td>
+    </tr>
+    <tr>
+        <td>Facebook</td>
+        <td>com.facebook.appmanager<br>com.facebook.services<br>com.facebook.system</td>
+    </tr>
+    <tr>
+        <td>Google Pay</td>
+        <td>com.google.android.apps.nbu.paisa.user</td>
+    </tr>
+    <tr>
+        <td>Personal Safety</td>
+        <td>com.google.android.apps.safetyhub</td>
+    </tr>
+    <tr>
+        <td>Google One</td>
+        <td>com.google.android.apps.subscriptions.red</td>
+    </tr>
+    <tr>
+        <td>Android Shared Library</td>
+        <td>com.google.android.ext.shared</td>
+    </tr>
+    <tr>
+        <td>Google App (Quick Search Box)</td>
+        <td>com.google.android.googlequicksearchbox</td>
+    </tr>
+    <tr>
+        <td>Android Accessibility Suite (TalkBack)</td>
+        <td>com.google.android.marvin.talkback</td>
+    </tr>
+    <tr>
+        <td>One-Time Initializer</td>
+        <td>com.google.android.onetimeinitializer</td>
+    </tr>
+    <tr>
+        <td>Print Service Recommendation</td>
+        <td>com.google.android.printservice.recommendation</td>
+    </tr>
+    <tr>
+        <td>AdServices</td>
+        <td>com.google.mainline.adservices</td>
+    </tr>
+    <tr>
+        <td>Mi File Manager</td>
+        <td>com.mi.android.globalFileexplorer</td>
+    </tr>
+    <tr>
+        <td>Mi Health</td>
+        <td>com.mi.healthglobal</td>
+    </tr>
+    <tr>
+        <td>MIUI Analytics</td>
+        <td>com.miui.analytics</td>
+    </tr>
+    <tr>
+        <td>MIUI Backup</td>
+        <td>com.miui.backup</td>
+    </tr>
+    <tr>
+        <td>Cleaner</td>
+        <td>com.miui.cleaner</td>
+    </tr>
+    <tr>
+        <td>Mi Cloud Backup</td>
+        <td>com.miui.cloudbackup</td>
+    </tr>
+    <tr>
+        <td>Xiaomi Cloud Service</td>
+        <td>com.miui.cloudservice</td>
+    </tr>
+    <tr>
+        <td>MIUI Daemon</td>
+        <td>com.miui.daemon</td>
+    </tr>
+    <tr>
+        <td>MIUI Freeform</td>
+        <td>com.miui.freeform</td>
+    </tr>
+    <tr>
+        <td>Xiaomi Package Installer</td>
+        <td>com.miui.global.packageinstaller</td>
+    </tr>
+    <tr>
+        <td>MIUI Security Plugin</td>
+        <td>com.miui.guardprovider</td>
+    </tr>
+    <tr>
+        <td>Mi Cloud Sync</td>
+        <td>com.miui.micloudsync</td>
+    </tr>
+    <tr>
+        <td>MIUI Services & Feedback</td>
+        <td>com.miui.miservice</td>
+    </tr>
+    <tr>
+        <td>MIUI MSA</td>
+        <td>com.miui.msa.global</td>
+    </tr>
+    <tr>
+        <td>Mi Music</td>
+        <td>com.miui.player</td>
+    </tr>
+    <tr>
+        <td>MIUI Touch Assistant</td>
+        <td>com.miui.touchassistant</td>
+    </tr>
+    <tr>
+        <td>MIUI Yellow Pages</td>
+        <td>com.miui.yellowpage</td>
+    </tr>
+    <tr>
+        <td>Mi Account</td>
+        <td>com.xiaomi.account</td>
+    </tr>
+    <tr>
+        <td>Mi Calendar</td>
+        <td>com.xiaomi.calendar</td>
+    </tr>
+    <tr>
+        <td>Xiaomi Game Center</td>
+        <td>com.xiaomi.glgm</td>
+    </tr>
+    <tr>
+        <td>Joyose (Gaming & SMS Support)</td>
+        <td>com.xiaomi.joyose</td>
+    </tr>
+    <tr>
+        <td>Mi Connect Service</td>
+        <td>com.xiaomi.mi_connect_service</td>
+    </tr>
+    <tr>
+        <td>Xiaomi GetApps</td>
+        <td>com.xiaomi.mipicks</td>
+    </tr>
+    <tr>
+        <td>Mi Pay</td>
+        <td>com.xiaomi.payment</td>
+    </tr>
+    <tr>
+        <td>IFAA Manager (Biometric Authentication)</td>
+        <td>org.ifaa.aidl.manager</td>
+    </tr>
+</table>
