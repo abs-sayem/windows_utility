@@ -1,6 +1,7 @@
-- Unzip the file. Move the folder called `uad_gui-windows-opengl` into the unzipped folder. Open the Command Prompt in that folder.
+### Debloate Android Phone
+- Unzip the `platform-tools-latest-windows.zip` file. Move the `uad_gui-windows-opengl` file into the unzipped folder. Open the Command Prompt in that folder.
 - Turn on USB debugging on your Android phone. Then, use a suitable cable to connect your phone to your computer.
-- Type the given command in Command Prompt. Check if it detects your phone. If it works, you’ll see your phone’s model number. 
+- Type the given command in Command Prompt. Check if it detects your phone. If it works, you’ll see your phone’s model number. If don't - check the cable and try again.
 
         ./adb devices
 
@@ -9,7 +10,7 @@ For more details check [How to install ADB on Windows, macOS, and Linux](https:/
 - Open the `opengl` file. If your phone is detected, it will display the list of applications.
 - You will now have full access to the apps on your phone. Review them carefully and uninstall or disable the ones you think are unnecessary.
 - `opengl` provides a helpful description for most of the apps. Read these descriptions to understand each app's purpose and decide whether to keep it or not.
-- I’m sharing a list of apps I found unnecessary based on my experience. You can consider uninstalling them, but please do your own research as I might not be entirely accurate. *`Also, the list of necessary apps may vary for each individual.`*
+- I’m sharing a list of apps I found unnecessary based on my experience in Xiaomi phone. You can consider uninstalling them, but please do your own research before uninstalling anything. *`The list of necessary apps may vary for each individual. There are some packages that might not appeared as apps instead they could be a service or a setting in the system.`*
 
     <table>
         <tr>
