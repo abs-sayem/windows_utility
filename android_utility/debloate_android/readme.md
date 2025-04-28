@@ -78,6 +78,10 @@ For more details check [How to install ADB on Windows, macOS, and Linux](https:/
             <td>com.google.mainline.adservices</td>
         </tr>
         <tr>
+            <td>YT Music</td>
+            <td>com.google.android.apps.youtube.music</td>
+        </tr>
+        <tr>
             <td>Mi File Manager</td>
             <td>com.mi.android.globalFileexplorer</td>
         </tr>
@@ -148,6 +152,10 @@ For more details check [How to install ADB on Windows, macOS, and Linux](https:/
         <tr>
             <td>MIUI Yellow Pages</td>
             <td>com.miui.yellowpage</td>
+        </tr>
+        <tr>
+            <td>Xiaomi Home</td>
+            <td>com.miui.home</td>
         </tr>
         <tr>
             <td>Mi Account</td>
