@@ -82,6 +82,10 @@ For more details check [How to install ADB on Windows, macOS, and Linux](https:/
             <td>com.mi.android.globalFileexplorer</td>
         </tr>
         <tr>
+            <td>App Vault</td>
+            <td>com.mi.android.globalminusscreen</td>
+        </tr>
+        <tr>
             <td>Mi Health</td>
             <td>com.mi.healthglobal</td>
         </tr>
