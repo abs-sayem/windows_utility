@@ -30,6 +30,7 @@ On the lock screen page, click the **Accessibility** (in the bottom right corner
 - Type `net user` - it will show you the users type and their names.<br>
 - Type `net user user-name *` *(change user_name with yours)*.<br>
 - Press **Enter** two times while asked for new password - this will keep password blank.
+
 Now login to your PC without any password.
 
 ### ✅ After Login [Optional]:
