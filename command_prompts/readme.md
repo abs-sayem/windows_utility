@@ -22,6 +22,7 @@ select disk x (say 2)
 clean
 convert GPT/MBR
 ```
+---
 
 ## **Troubleshoot**
 Open the `cmd` and type the commands one after one:
@@ -33,12 +34,14 @@ sfc /scannow
 ```
 DISM /Online /Cleanup-Image /RestoreHealth
 ```
+---
 
 ## **Activation (Windows and Office)**
 Open the `cmd` as administrator, Run the script and follow the instruction:
 ```
 irm https://get.activated.win | iex
 ```
+---
 
 ## **Debloate Windows**
 Open `cmd` and run the command:
@@ -49,3 +52,56 @@ irm www.christitus.com/win | iex
 * `Standard`: It debloates most of the services we usually not required
 * `Minimal`: It is a minimal option of standard debloat
 * You can customize the setting os both 'standard' and 'minimal' options if you know.
+
+---
+
+## **PC Check Toolkit**
+These all are PowerShell commands. Always run **PowerShell as Admin**, helpful for `winsat` and `chkdsk`.
+
+#### ✅ Get CPU Info
+
+Get-CimInstance Win32_Processor | Select-Object Name, NumberOfCores, NumberOfLogicalProcessors, MaxClockSpeed
+
+#### ✅ Get RAM Info
+
+Get-CimInstance Win32_PhysicalMemory | Select-Object Capacity, Speed
+
+#### ✅ Get GPU Info
+
+Get-CimInstance Win32_VideoController | Select-Object Name, DriverVersion
+
+#### ✅ Run Disk Benchmark (Basic)
+
+winsat disk -drive c
+
+#### ✅ Run Overall WinSAT Score
+
+Get-CimInstance win32_winsat
+
+#### ✅ Run Disk Health Check
+
+chkdsk
+
+---
+
+Or, you can make a `.ps1` script with these and run all at once:
+
+#### Save as CheckSystem.ps1
+
+Get-CimInstance Win32_Processor | Select-Object Name, NumberOfCores, NumberOfLogicalProcessors, MaxClockSpeed
+Get-CimInstance Win32_PhysicalMemory | Select-Object Capacity, Speed
+Get-CimInstance Win32_VideoController | Select-Object Name, DriverVersion
+winsat disk -drive c
+Get-CimInstance win32_winsat
+chkdsk
+
+Then run the following command, this will let you run your own `.ps1` scripts. Because, by default, Windows blocks local scripts for security.
+
+Set-ExecutionPolicy RemoteSigned
+
+Then go to the folder the `.ps1` file is situated and run it. like -
+
+cd "C:\Users\Abs_Sayem\Documents"
+.\CheckSystem.ps1
+
+---
