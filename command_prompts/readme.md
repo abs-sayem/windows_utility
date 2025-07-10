@@ -84,9 +84,9 @@ chkdsk
 ```
 ---
 
-Or, you can make a `.ps1` script with these and run all at once:
+**Or, you can make a `.ps1` script with all these commands and run all at once:**
 
-#### Save as CheckSystem.ps1
+#### Save as CheckSystem.ps1:
 ```
 Get-CimInstance Win32_Processor | Select-Object Name, NumberOfCores, NumberOfLogicalProcessors, MaxClockSpeed
 Get-CimInstance Win32_PhysicalMemory | Select-Object Capacity, Speed
