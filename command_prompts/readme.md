@@ -84,7 +84,7 @@ chkdsk
 ```
 ---
 
-**Or, you can make a `.ps1` script with all these commands and run all at once:**
+**Or, you can make a `.ps1` script with all these commands and run all at once:** save all the commands in one file with extensin (.ps1) and run the file in powershell.
 
 #### Save as CheckSystem.ps1:
 ```
