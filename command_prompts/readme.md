@@ -105,3 +105,40 @@ cd "C:\Users\Abs_Sayem\Documents"
 .\CheckSystem.ps1
 ```
 ---
+
+## **Bypass Microsoft Account while Windows Setup**
+---
+
+### **🛠️ Method 1: Use Command Prompt During Setup**
+---
+- At the region selection screen, press Shift + F10 to open Command Prompt.
+- Type this command and hit Enter:
+
+    ```
+    oobe\bypassnro
+    ```
+
+- Your system will reboot. When it returns to setup:
+- Press Shift + F10 again.
+- Type:
+
+    ```
+    ipconfig /release
+    ```
+
+- This disables internet access.
+- Proceed with setup → choose “I don’t have internet” → then “Continue with limited setup”.
+- You’ll now be able to create a local account.
+---
+
+### **🧪 Method 2: Use Developer Console (Newer Builds)**
+---
+If the above doesn’t work (on newer builds), try:- Press Shift + F10 to open Command Prompt.
+- Type:
+
+    ```
+    start ms-cxh:localonly
+    ```
+
+- This launches the local account creation screen directly.
+---
