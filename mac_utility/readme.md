@@ -12,6 +12,8 @@
     <tr><td>Cut</td><td>Command + X</td></tr>
     <tr><td>Copy</td><td>Command + C</td></tr>
     <tr><td>Paste</td><td>Command + V</td></tr>
+    <tr><td>Move</td><td>Command + Option + V</td></tr>
+    <tr><td>Duplicate</td><td>Command + D</td></tr>
     <tr><td>Delete</td><td>Command + Delete</td></tr>
     <tr><td>Parmanent Delete</td><td>Command + Option + Delete</td></tr>
     <tr><td>Print</td><td>Command + P</td></tr>
@@ -49,6 +51,14 @@
     <tr><td>Bookmark Page</td><td>Command + D</td></tr>
     <tr><td>Back/Forward Navigation</td><td>Command + Option + ← / →</td></tr>
     <tr><td>Switch to Next Tab</td><td>Control + Tab</td></tr>
+  </table>
+
+  <h2>🌐 Tips for Mac User</h2>
+  <table border="1">
+    <tr><th>Drag</th><th>Drag files actully move the file</th></tr>
+    <tr><td>Option + Drag</td><td>Copy the file to the same or new directory</td></tr>
+    <tr><td>Extract Audio</td><td>Right Click > Encode > Setting > Select 'Audio Only'</td></tr>
+    <tr><td>Keyword Based Search</td><td>Write 'kind:pdf' to search only pdfs in Spotlight</td></tr>
   </table>
 </body>
 </html>
