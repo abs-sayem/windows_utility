@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>macOS & Browser Shortcuts</title>
-</head>
+<head></head>
 <body>
   <h1>🧠 Essential Shortcuts for macOS & Browsers</h1>
 
@@ -14,6 +12,8 @@
     <tr><td>Cut</td><td>Command + X</td></tr>
     <tr><td>Copy</td><td>Command + C</td></tr>
     <tr><td>Paste</td><td>Command + V</td></tr>
+    <tr><td>Delete</td><td>Command + Delete</td></tr>
+    <tr><td>Parmanent Delete</td><td>Command + Option + Delete</td></tr>
     <tr><td>Print</td><td>Command + P</td></tr>
     <tr><td>Select All</td><td>Command + A</td></tr>
     <tr><td>Save File</td><td>Command + S</td></tr>
@@ -23,7 +23,9 @@
     <tr><td>Spotlight Search</td><td>Command + Space</td></tr>
     <tr><td>App Switcher</td><td>Command + Tab</td></tr>
     <tr><td>Hide Current App</td><td>Command + H</td></tr>
+    <tr><td>Hide All but Current App</td><td>Command + Option + H</td></tr>
     <tr><td>Minimize Current App</td><td>Command + M</td></tr>
+    <tr><td>Minimize All Current App</td><td>Option + Minimize One</td></tr>
     <tr><td>Quit App</td><td>Command + Q</td></tr>
     <tr><td>Open App Settings</td><td>Command + ,</td></tr>
     <tr><td>Force Quit</td><td>Command + Option + Esc</td></tr>
@@ -31,6 +33,8 @@
     <tr><td>Activate Siri</td><td>Double-tap Command key</td></tr>
     <tr><td>Quick Preview</td><td>Select item + Spacebar</td></tr>
     <tr><td>Quick Note</td><td>Fn + Q</td></tr>
+    <tr><td>Get More Options</td><td>Option + Press Any Tool/Icon</td></tr>
+    <tr><td>Force Quit Applications</td><td>Option + Command + Esc</td></tr>
   </table>
 
   <h2>🌐 Web Browser Shortcuts</h2>
