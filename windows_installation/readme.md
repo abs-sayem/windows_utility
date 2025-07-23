@@ -14,13 +14,13 @@
 
 ### **Debloat After Clean Installation**
 * Open `cmd` as administrator and run the following code: 
-
-irm https://christitus.com/win | iex
-
+    ```
+    irm https://christitus.com/win | iex
+    ```
 or
-
-iwr -useb https://christitus.com/win | iex
-
+    ```
+    iwr -useb https://christitus.com/win | iex
+    ```
 * This will pop up an windows for debloat or install applications.
 * For more details, visit: [christitus's github page](https://github.com/ChrisTitusTech/winutil).
 
@@ -40,9 +40,9 @@ iwr -useb https://christitus.com/win | iex
 ### **Configure Dual Boot:**
 * **Enable Dual Boot** - sometimes the option to choose the windows doesn't appear, for this we need to enable the dual boot option.
     * Open 'Command Prompt' as administrator and run the following command:
-
+        ```
         bcdedit /set {bootmgr} displaybootmenu yes
-
+        ```
 * **Disable Fast Startup** - first startup might disable the dual boot menu.
     * Go to 'Control Panel' > 'Hardware and Sound' > 'Power Options'.
     * Go to 'Choose what the power button do' > 'Change settings that are currently unavailable' and uncheck 'Turn on fast startup' then 'Save Changes'.
