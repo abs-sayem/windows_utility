@@ -17,9 +17,8 @@
     ```
     irm https://christitus.com/win | iex
     ```
-    
-or
 
+or
     ```
     iwr -useb https://christitus.com/win | iex
     ```
