@@ -1,6 +1,6 @@
 # windows_utility
 
-## **Windows Download**
+## **Windows ISO Download**
 - [Get Into Pc](https://getintopc.com/softwares/operating-systems/) - All previous windows versions are available here.
 - [Windows 11 Official (x64)](https://www.microsoft.com/en-us/software-download/windows11) - Windows 11 official iso download.
 
