@@ -1,5 +1,5 @@
 # 🧼 Steps to Erase & Reset Your Mac
-  To safely hand over MacBook Pro and ensure **all the personal data, settings, and Apple ID are removed**, and to perform a **factory reset**. Here's a step-by-step guide tailored for 2019 Intel-based MacBook Pro:
+ To safely hand over MacBook Pro and ensure **all the personal data, settings, and Apple ID are removed**, and to perform a **factory reset**. Here's a step-by-step guide tailored for 2019 Intel-based MacBook Pro:
 
 ---
 
@@ -74,8 +74,8 @@
     > 📺 [Delete files and folders on MacBook Air, MacBook Pro](https://www.youtube.com/watch?v=HSE0VyXJEhU) demonstrates how to safely delete files and clean up your system.
 
 - **D3 Check for Leftover Data**
-  Open Finder → Press `Command + Shift + G` → Type `~/Library`  <br>
-  Delete contents from folders like:
+    - Open Finder → Press `Command + Shift + G` → Type `~/Library`
+    - Delete contents from folders like:
         - `Caches`
         - `Application Support`
         - `Mail`
