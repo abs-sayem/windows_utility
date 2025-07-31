@@ -11,7 +11,6 @@ To safely hand over MacBook Pro and ensure **all the personal data, settings, an
    - iMessage: Open Messages → Preferences → iMessage → Sign Out  
    - iTunes (if applicable): Open iTunes → Account → Authorizations → Deauthorize This Computer  
    - Turn off **Find My Mac** in iCloud settings
-
 ---
 
 ### C. **Reset and Reinstall macOS**
@@ -53,9 +52,9 @@ To safely hand over MacBook Pro and ensure **all the personal data, settings, an
 
 ---
 
-or
-
+### **OR**
 ---
+
 ### D. 🧹 Remove Personal Data Without Reinstalling macOS
 
 1. **D1. Delete Your User Account**
