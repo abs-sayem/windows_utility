@@ -49,34 +49,26 @@ To safely hand over MacBook Pro and ensure **all the personal data, settings, an
 6. [How to Easily Factory Reset and Erase Your Mac (2 Methods)](https://www.youtube.com/watch?v=jdID0QOQDiU&pp=0gcJCfwAo7VqN5tD)  
    Offers two methods depending on your macOS version.
 ---
+or
+---
 ### 🧹 Remove Personal Data Without Reinstalling macOS
 
-1. **Sign Out of Apple Services**
-- **iCloud**:  
-  `System Settings → Apple ID → Sign Out`  
-  This disables *Find My Mac* and removes your iCloud data.
-- **iMessage**:  
-  Open Messages → Settings → iMessage → Sign Out
-- **App Store / iTunes**:  
-  Open App Store → Click your name → Sign Out  
-  Or in iTunes: `Account → Authorizations → Deauthorize This Computer`
-
-2. **Delete Your User Account**
+1. **Delete Your User Account**
 - Go to `System Settings → Users & Groups`
 - Unlock with your admin password
 - Select your user account → Click the **minus (-)** button
 - Choose **“Delete the home folder”** to remove all personal files
 
-📺 [How to Delete a User Account on Mac](https://www.youtube.com/watch?v=DjZV4Z0mdSk&pp=0gcJCfwAo7VqN5tD) shows this process clearly, including how to erase the home folder.
+> 📺 [How to Delete a User Account on Mac](https://www.youtube.com/watch?v=DjZV4Z0mdSk&pp=0gcJCfwAo7VqN5tD) shows this process clearly, including how to erase the home folder.
 
-3. **Remove Other Personal Files**
+2. **Remove Other Personal Files**
 If you’ve stored files outside your user folder (e.g. external drives, shared folders):
 - Manually delete them from Finder
 - Empty the Trash
 
-📺 [Delete files and folders on MacBook Air, MacBook Pro](https://www.youtube.com/watch?v=HSE0VyXJEhU) demonstrates how to safely delete files and clean up your system.
+> 📺 [Delete files and folders on MacBook Air, MacBook Pro](https://www.youtube.com/watch?v=HSE0VyXJEhU) demonstrates how to safely delete files and clean up your system.
 
-4. **Check for Leftover Data**
+3. **Check for Leftover Data**
 - Open Finder → Press `Command + Shift + G` → Type `~/Library`  
   Delete contents from folders like:
   - `Caches`
@@ -85,7 +77,7 @@ If you’ve stored files outside your user folder (e.g. external drives, shared 
   - `Safari`
   - `Keychains`
 
-5. **Clear Browser History & Passwords**
+4. **Clear Browser History & Passwords**
 - Safari → Settings → Privacy → Manage Website Data → Remove All
 - Safari → Settings → Passwords → Delete saved credentials
 
