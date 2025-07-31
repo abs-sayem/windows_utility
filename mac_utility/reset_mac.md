@@ -58,7 +58,7 @@ To safely hand over MacBook Pro and ensure **all the personal data, settings, an
 
 ### D. 🧹 Remove Personal Data Without Reinstalling macOS
 
-- **D1. Delete Your User Account**
+- **D1 Delete Your User Account**
     - Go to `System Settings → Users & Groups`
     - Unlock with your admin password
     - Select your user account → Click the **minus (-)** button
@@ -66,26 +66,26 @@ To safely hand over MacBook Pro and ensure **all the personal data, settings, an
 
     > 📺 [How to Delete a User Account on Mac](https://www.youtube.com/watch?v=DjZV4Z0mdSk&pp=0gcJCfwAo7VqN5tD) shows this process clearly, including how to erase the home folder.
 
-- **D2. Remove Other Personal Files** - If you’ve stored files outside your user folder (e.g. external drives, shared folders):
+- **D2 Remove Other Personal Files** - If you’ve stored files outside your user folder (e.g. external drives, shared folders):
     - Manually delete them from Finder
     - Empty the Trash
 
     > 📺 [Delete files and folders on MacBook Air, MacBook Pro](https://www.youtube.com/watch?v=HSE0VyXJEhU) demonstrates how to safely delete files and clean up your system.
 
-- **D3. Check for Leftover Data**
- - Open Finder → Press `Command + Shift + G` → Type `~/Library`  <br>
-   Delete contents from folders like:
-    - `Caches`
-    - `Application Support`
-    - `Mail`
-    - `Safari`
-    - `Keychains`
+- **D3 Check for Leftover Data**
+    - Open Finder → Press `Command + Shift + G` → Type `~/Library`  <br>
+    - Delete contents from folders like:
+        - `Caches`
+        - `Application Support`
+        - `Mail`
+        - `Safari`
+        - `Keychains`
 
-- **D4. Clear Browser History & Passwords**
- - Safari → Settings → Privacy → Manage Website Data → Remove All
- - Safari → Settings → Passwords → Delete saved credentials
+- **D4 Clear Browser History & Passwords**
+    - Safari → Settings → Privacy → Manage Website Data → Remove All
+    - Safari → Settings → Passwords → Delete saved credentials
 
-- **D5. More Helpful Videos 🎥**
+- **D5 More Helpful Videos 🎥**
 
     - [How to delete User Account and files on macOS Ventura](https://www.youtube.com/watch?v=EIrs8UQgYjk&pp=0gcJCfwAo7VqN5tD)  
   Great for newer macOS versions — shows how to delete users and clean up files.
