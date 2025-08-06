@@ -1,3 +1,6 @@
+:: Run this script as administrator
+:: This script performs a disk cleanup on the C: drive
+
 @echo off
 echo Running Disk Cleanup...
 
