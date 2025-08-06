@@ -1,5 +1,4 @@
-<h1 style="text-align: center;">Windows Utility<h1>
-<hr>
+<h1>Windows Utility<h1>
 
 ## **Windows ISO Download**
 - [Get Into Pc](https://getintopc.com/softwares/operating-systems/) - All previous windows versions along with other operating systems are available here.
