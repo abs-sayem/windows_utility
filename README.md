@@ -22,3 +22,15 @@ Windows Installation, Debloat, Customization, Troubleshooting, Command Prompts
 * **[Custom MS Office Installation](https://github.com/abs-sayem/windows_utility/tree/main/custom_office)**
     * **Install Selective MS Office Products:** Most of the user doesn't need other products except **`Word`**, **`Excel`** and **`PowerPoint`**. A xml setting file is used to select the products we need. This setting file let the installation process to exclude all the products listed in the xml file. It needs internet connection since the system install the product from web.
     * Please read the readme file included with the Office files.
+
+---
+
+## Windows Disk Cleanup:
+- Download the `disk_cleanup.bat` and run as administrator.
+- It will scan the C: drive and clean up system files and Windows Update leftovers.
+- You can do the same from [`Chris Titus Debloat Tool`](https://github.com/ChrisTitusTech/winutil) as well.
+
+---
+
+## Reset Windows Password
+Follow [this](https://github.com/abs-sayem/windows_utility/blob/main/reset_windows_password_if_forgotten.md) doccumentation to reset or remove the forgotten windows password.
