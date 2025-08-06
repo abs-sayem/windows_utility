@@ -1,4 +1,5 @@
-# windows_utility
+<h1 style="text-align: center;">Windows Utility<h1>
+<hr>
 
 ## **Windows ISO Download**
 - [Get Into Pc](https://getintopc.com/softwares/operating-systems/) - All previous windows versions along with other operating systems are available here.
@@ -26,7 +27,7 @@ Windows Installation, Debloat, Customization, Troubleshooting, Command Prompts
 ---
 
 ## Windows Disk Cleanup:
-- Download the `disk_cleanup.bat` and run as administrator.
+- Download the `disk_cleanup.bat` fle and run as administrator.
 - It will scan the C: drive and clean up system files and Windows Update leftovers.
 - You can do the same from [`Chris Titus Debloat Tool`](https://github.com/ChrisTitusTech/winutil) as well.
 
