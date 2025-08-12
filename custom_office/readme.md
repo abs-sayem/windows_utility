@@ -5,7 +5,7 @@ Most of us don't need other office products except **Word**, **Excel**, **PowerP
 ---
 
 ## **For Office 2019 and 2021**
-#### **`Configure xml File Setting`**
+#### Configure xml File Setting
 Open the configuartion file in notepad and you will see couple of lines code like the following:
 ```
 <Configuration>
@@ -33,10 +33,10 @@ Open the configuartion file in notepad and you will see couple of lines code lik
 ```
 From here you can exclude the office products you don't need. In this xml file I excluded all the common office products except Word, Excel and PowerPoint. So, this file configuration is to install these three products only. If you need any other product just remove the line that exclude the product or just simply comment the line and save the setting. For commenting any line include `<!--` in the beginning and `-->` in the end of the line.
 
-#### **`Run the Setup File`**
+#### Run the Setup File
 With the xml file we also found two other files. One is `setup.exe` and another is `start.cmd` file. Double click any one of them and it will pop up a window which will show the installation progress.
 
-#### **`Activate the Office`**
+#### Activate the Office
 1. Open terminal as administrator and run the following command: it will pop a window that provides options of activation, just press the corresponding numbers. *`It also activates the windows.`*
   ```cmd
     irm https://get.activated.win | iex
@@ -46,9 +46,9 @@ With the xml file we also found two other files. One is `setup.exe` and another 
 ---
 
 ## **For Office 2024**
-#### **`Configure xml File Setting`**
+#### Configure xml File Setting
 The configuration process is same as earlier except one thing. This office 2024 allows activation while installing. To do so [visit the microsoft official site](https://learn.microsoft.com/en-us/office/ltsc/preview/install-ltsc-preview) and use the given key for office ltsc 2024 in the `Use KMS to activate` section of `Activate Office LTSC preview`.
-#### **`Run the Setup File`**
+#### Run the Setup File
 After the configuration of xml setting, open the cmd as administrator and go to the directory of the office file.
   ```cmd
     cd directory_path
