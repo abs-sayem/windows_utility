@@ -26,11 +26,18 @@ Windows Installation, Debloat, Customization, Troubleshooting, Command Prompts
 ---
 
 ## Windows Disk Cleanup:
-- Download the `disk_cleanup.bat` fle and run as administrator.
-- It will scan the C: drive and clean up system files and Windows Update leftovers.
-- You can do the same from [`Chris Titus Debloat Tool`](https://github.com/ChrisTitusTech/winutil) as well.
+- Download the **`windisk_cleanup.bat`** fle and run as **administrator**.
+- It will run multiple built-in Windows cleanup operations —
+    - Disk Cleanup `(cleanmgr)`
+    - Temporary files
+    - Prefetch files
+    - Windows Update leftovers
+    - Recycle Bin
+    - System cache
+- You can do the same from [**`Chris Titus Debloat Tool`**](https://github.com/ChrisTitusTech/winutil) as well.
 
 ---
 
 ## Reset Windows Password
-Follow [this](https://github.com/abs-sayem/windows_utility/blob/main/reset_windows_password_if_forgotten.md) doccumentation to reset or remove the forgotten windows password.
+Follow [Reset Windows Password If Forgotten](https://github.com/abs-sayem/windows_utility/blob/main/reset_windows_password_if_forgotten.md) doccumentation to reset or remove the forgotten windows password.
+> [NB] It requires prior authority.
