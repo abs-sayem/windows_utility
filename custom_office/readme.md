@@ -57,7 +57,8 @@ It will pop up a window which will show the setup progress.
 
 
 ## Activate the Office
-1. **Using Command `(Need Internet)`:**
+
+#### Using Command `(Need Internet)`:
 - Open terminal as administrator and run the following command: 
   ```cmd
     irm https://get.activated.win | iex
@@ -65,8 +66,8 @@ It will pop up a window which will show the setup progress.
 - it will pop a window that provides options for activation, follow the instruction carefully - just press the corresponding numbers.
 - ***`It also activates the windows.`***
   
-  OR
+  **OR**
 
-2. **The KMS Activation Script:** 
-  - Search **`bit.ly/office2019.txt`** in the web for office 2019/2021/2024 activation. Copy the script from any of the page and paste the script in text file and save the file with **`.cmd`** extension.
-  - Then run the cmd file as administrator. If the script does not work, try another script.
+#### **The KMS Activation Script:** 
+- Search **`bit.ly/office2019.txt`** in the web for office 2019/2021/2024 activation. Copy the script from any of the page and paste the script in text file and save the file with **`.cmd`** extension.
+- Then run the cmd file as administrator. If the script does not work, try another script.
