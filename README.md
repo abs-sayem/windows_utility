@@ -25,7 +25,7 @@ Windows Installation, Debloat, Customization, Troubleshooting, Command Prompts
 
 ---
 
-## Windows Disk Cleanup:
+## Windows Disk Cleanup
 - Download the **`windisk_cleanup.bat`** fle and run as **administrator**.
 - It will run multiple built-in Windows cleanup operations —
     - Disk Cleanup `(cleanmgr)`
@@ -41,3 +41,9 @@ Windows Installation, Debloat, Customization, Troubleshooting, Command Prompts
 ## Reset Windows Password
 Follow [Reset Windows Password If Forgotten](https://github.com/abs-sayem/windows_utility/blob/main/reset_windows_password_if_forgotten.md) doccumentation to reset or remove the forgotten windows password.
 > [NB] It requires prior authority.
+
+---
+
+## Check Keyboard
+- Download [Keyboard Test Utility](https://www.filehorse.com/download-keyboard-test-utility/download/) app and open it. It will pop up a windows to check the keys functionality.
+- Check [the official doccumentation](https://www.filehorse.com/download-keyboard-test-utility/) for more details.
