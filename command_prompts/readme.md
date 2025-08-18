@@ -142,3 +142,13 @@ If the above doesn’t work (on newer builds), try:- Press Shift + F10 to open C
 
 - This launches the local account creation screen directly.
 ---
+
+## **Update all Installed Apps**
+- Open CMD as Administrator and Run:
+    ```cmd
+        winget upgrade
+    ```
+- It will show all the upgradeable apps. To update all, run:
+    ```cmd
+        winget upgrade --all
+    ```
