@@ -161,8 +161,6 @@ If the above doesn’t work (on newer builds), try:- Press Shift + F10 to open C
     ```
 - To update all except specific one or more, run:
     ```cmd
-        winget upgrade | Where-Object { $_ -notmatch "AppName1|AppName2" } | ForEach-Object {
-        $id = ($_ -split '\s{2,}')[0]
-        winget upgrade --id "$id"}
+        winget upgrade | Where-Object { $_ -notmatch "AppName1|AppName2" } | ForEach-Object { $id = ($_ -split '\s{2,}')[0] winget upgrade --id "$id"}
     ```
 ---
