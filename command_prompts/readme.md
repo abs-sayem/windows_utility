@@ -1,9 +1,9 @@
-## **Change Partition Type**
+# Change Partition Type
 There is an issue of partition confliction (GPT/MBR) during the windows installation often. We might mount the windows iso file in one partition type but the drive we intend to install windows might be in another partition type. In this situation we can change the drive partition type using command prompt from the installation process window. [`Note`] We can not change the partition type of the extarnal drive where we mount the windows iso file. Also it is time consuming to mount the iso again. It is better to be confirm the partition type of the intended drive earlier. Here, we will know - <br>
 1. How we can check the drive partion type (GPT / MBR) <br>
 2. How to change the partition type if it conflicts
 
-**Checking Partition Type**<br>
+#### Checking Partition Type
 Open the `cmd` and type the commands one after one: 
 ```
 diskpart 
@@ -13,7 +13,7 @@ list disk
 * `list disk` will provide the details of every drive details
 * [NB] In the partition section '*' quoted drives are in GPT partition, non-'*' drives are in MBR partition
 
-**Change Partition**
+#### Change Partition
 Open the `cmd` and type the commands one after one:
 ```
 diskpart
@@ -24,7 +24,7 @@ convert GPT/MBR
 ```
 ---
 
-## **Troubleshoot**
+# Troubleshoot Windows
 Open the `cmd` and type the commands one after one:
 * **Universal Troubleshoot:** [if found corrept files, restart after complition]
 ```
@@ -36,14 +36,14 @@ DISM /Online /Cleanup-Image /RestoreHealth
 ```
 ---
 
-## **Activation (Windows and Office)**
+# Activation (Windows and Office)
 Open the `cmd` as administrator, Run the script and follow the instruction:
 ```
 irm https://get.activated.win | iex
 ```
 ---
 
-## **Debloate Windows**
+# Debloate Windows
 Open `cmd` and run the command:
 ```
 irm www.christitus.com/win | iex
@@ -55,7 +55,7 @@ irm www.christitus.com/win | iex
 
 ---
 
-## **PC Check Toolkit**
+# PC Check Toolkit
 These all are PowerShell commands. Always run **PowerShell as Admin**, helpful for `winsat` and `chkdsk`.
 
 #### ✅ Get CPU Info
@@ -106,7 +106,7 @@ cd "C:\Users\Abs_Sayem\Documents"
 ```
 ---
 
-## **Bypass Microsoft Account while Windows Setup**
+# Bypass Microsoft Account while Windows Setup
 ---
 
 ### **🛠️ Method 1: Use Command Prompt During Setup**
@@ -143,7 +143,7 @@ If the above doesn’t work (on newer builds), try:- Press Shift + F10 to open C
 - This launches the local account creation screen directly.
 ---
 
-## Update all Installed Apps
+# Update all Installed Apps
 ### Check Available Updates
 - Open CMD as Administrator and Run:
     ```cmd
