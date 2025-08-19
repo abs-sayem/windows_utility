@@ -143,12 +143,26 @@ If the above doesn’t work (on newer builds), try:- Press Shift + F10 to open C
 - This launches the local account creation screen directly.
 ---
 
-## **Update all Installed Apps**
+## Update all Installed Apps
+### Check Available Updates
 - Open CMD as Administrator and Run:
     ```cmd
         winget upgrade
     ```
-- It will show all the upgradeable apps. To update all, run:
+- It will show all the upgradeable apps.
+### Upgrade Available Updates
+- To update all, run:
     ```cmd
         winget upgrade --all
     ```
+- To update specific one, run:
+    ```cmd
+        winget upgrade --id "AppID"
+    ```
+- To update all except specific one or more, run:
+    ```cmd
+        winget upgrade | Where-Object { $_ -notmatch "AppName1|AppName2" } | ForEach-Object {
+        $id = ($_ -split '\s{2,}')[0]
+        winget upgrade --id "$id"}
+    ```
+---
