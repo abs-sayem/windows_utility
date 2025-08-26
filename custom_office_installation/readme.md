@@ -74,8 +74,6 @@ Most of us don't need other office products except **Word**, **Excel**, **PowerP
   ```
 - It will pop a window that provides options for activation, follow the instruction carefully - just press the corresponding digits.
 - ***`It also activates the windows.`***
-  
-  **OR**
 
 #### Using KMS Activation Script:
 - Search **`bit.ly/office2019.txt`** in the web for office 2019/2021/2024 activation. Copy the script from any of the page and paste the script in text file and save the file with **`.cmd`** extension.
