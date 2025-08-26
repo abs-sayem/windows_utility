@@ -1,7 +1,7 @@
 # Install Custom Office
 Most of us don't need other office products except **Word**, **Excel**, **PowerPoint** and for some users **Visio**. So, it is wise to install just needed products rather than all the products come with full version (about 7-10 products). To install custom office **`download and extract one of the office file`** and follow the steps:
 
-> **The installation needs internet connection as it will download the products from web**
+> **The installation needs internet connection as it will download the products from web.**
 
 ---
 
@@ -49,21 +49,28 @@ After the configuration of xml setting, open the cmd as administrator and go to 
   ```
 And run the command:
   ```cmd
-    .\setup.exe /configure office2024_configuration.xml
+    ./setup.exe /configure Configuration-Office2024WEP.xml
   ```
-It will pop up a window which will show the setup progress.
-
+It will pop up a window which will show the setup progress. This configuration will install only **Word**, **Excel** and **PowerPoint**. `Make sure the pc is connected to internet.`
+- There are other configuration files for other office products combination. Like -
+  - `./setup.exe /configure Configuration-Office365-x64.xml` - For all the available products.
+  - `./setup.exe /configure Configuration-Office2024Project.xml` - For only **Project**.
+  - `./setup.exe /configure Configuration-Office2024WEPP.xml` - For **Word**, **Excel**, **PowerPoint** and **Project**
+- You can configure your own file configuration file as your demand as demonstarated earlier.
+- **[NB]**
+  - You cannot install two configuration files one after another. The last one will remove the first installation products.
+  - Read the **readme.txt** file associated with every zip file.
 ---
 
 
 ## Activate the Office
 
-#### Using Command `(Need Internet)`:
-- Open terminal as administrator and run the following command: 
+#### Using Command `(Need Internet)`: The easy way
+- Open Terminal/PowerShell as administrator and run the following command: 
   ```cmd
     irm https://get.activated.win | iex
   ```
-- it will pop a window that provides options for activation, follow the instruction carefully - just press the corresponding numbers.
+- It will pop a window that provides options for activation, follow the instruction carefully - just press the corresponding digits.
 - ***`It also activates the windows.`***
   
   **OR**
