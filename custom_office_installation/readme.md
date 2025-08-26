@@ -7,43 +7,43 @@ Most of us don't need other office products except **Word**, **Excel**, **PowerP
 
 ## **For Office 2019 and 2021**
 ### Configure xml File Setting
-Open the configuartion file in notepad and you will see couple of lines code like the following:
-```code
-<Configuration>
+- Open the configuartion file in notepad and you will see couple of lines code like the following:
+  ```code
+  <Configuration>
 
-  <Add OfficeClientEdition="64" Channel="PerpetualVL2021">
-    <Product ID="ProPlus2021Volume">
-      <Language ID="en-us" />
-      <ExcludeApp ID="Outlook" />
-      <ExcludeApp ID="Access" />
-      <ExcludeApp ID="Publisher" />
-      <ExcludeApp ID="OneNote" />
-      <ExcludeApp ID="OneDrive" />
-      <ExcludeApp ID="Groove" />
-      <ExcludeApp ID="Teams" />
-      <ExcludeApp ID="Lync" />
-    </Product>
-  </Add>
+    <Add OfficeClientEdition="64" Channel="PerpetualVL2021">
+      <Product ID="ProPlus2021Volume">
+        <Language ID="en-us" />
+        <ExcludeApp ID="Outlook" />
+        <ExcludeApp ID="Access" />
+        <ExcludeApp ID="Publisher" />
+        <ExcludeApp ID="OneNote" />
+        <ExcludeApp ID="OneDrive" />
+        <ExcludeApp ID="Groove" />
+        <ExcludeApp ID="Teams" />
+        <ExcludeApp ID="Lync" />
+      </Product>
+    </Add>
 
-  <Remove All="True" />
-  <!--  <RemoveMSI All="True" /> -->
-  <!--  <Display Level="None" AcceptEULA="TRUE" />  -->
-  <!--  <Property Name="AUTOACTIVATE" Value="1" />  -->
+    <Remove All="True" />
+    <!--  <RemoveMSI All="True" /> -->
+    <!--  <Display Level="None" AcceptEULA="TRUE" />  -->
+    <!--  <Property Name="AUTOACTIVATE" Value="1" />  -->
 
-</Configuration>
-```
-From here you can exclude the office products you don't need. In this xml file I excluded all the common office products except Word, Excel and PowerPoint. So, this file configuration is to install these three products only. If you need any other product just remove the line that exclude the product or just simply comment the line and save the setting. For commenting any line include `<!--` in the beginning and `-->` in the end of the line.
+  </Configuration>
+  ```
+- From here you can exclude the office products you don't need. In this xml file I excluded all the common office products except Word, Excel and PowerPoint. So, this file configuration is to install these three products only. If you need any other product just remove the line that exclude the product or just simply comment the line and save the setting. For commenting any line include `<!--` in the beginning and `-->` in the end of the line.
 
 ### Run the Setup File
-With the xml file we also found two other files. One is **`setup.exe`** and another is **`start.cmd`** file. Double click any one of them and it will pop up a window which will show the installation progress.
+- With the xml file we also found two other files. One is **`setup.exe`** and another is **`start.cmd`** file. Double click any one of them and it will pop up a window which will show the installation progress.
 
 ---
 
 ## **For Office 2024**
 ### Configure xml File Setting
-The configuration process is same as earlier except one thing. This office 2024 allows activation while installing. To do so [visit the microsoft official site](https://learn.microsoft.com/en-us/office/ltsc/preview/install-ltsc-preview) and use the given key for office ltsc 2024 in the **`Use KMS to activate`** section of **`Activate Office LTSC preview`**.
+- The configuration process is same as earlier except one thing. This office 2024 allows activation while installing. To do so [visit the microsoft official site](https://learn.microsoft.com/en-us/office/ltsc/preview/install-ltsc-preview) and use the given key for office ltsc 2024 in the **`Use KMS to activate`** section of **`Activate Office LTSC preview`**.
 ### Run the Setup File
-After the configuration of xml setting, open the cmd as administrator and go to the directory of the office file.
+- After the configuration of xml setting, open the cmd as administrator and go to the directory of the office file.
   ```cmd
     cd directory_path
   ```
@@ -51,15 +51,17 @@ And run the command:
   ```cmd
     ./setup.exe /configure Configuration-Office2024WEP.xml
   ```
-It will pop up a window which will show the setup progress. This configuration will install only **Word**, **Excel** and **PowerPoint**. `Make sure the pc is connected to internet.`
+- It will pop up a window which will show the setup progress. This configuration will install only **Word**, **Excel** and **PowerPoint**. `Make sure the pc is connected to internet.`
 - There are other configuration files for other office products combination. Like -
   - `./setup.exe /configure Configuration-Office365-x64.xml` - For all the available products.
   - `./setup.exe /configure Configuration-Office2024Project.xml` - For only **Project**.
   - `./setup.exe /configure Configuration-Office2024WEPP.xml` - For **Word**, **Excel**, **PowerPoint** and **Project**
 - You can configure your own file configuration file as your demand as demonstarated earlier.
-- **[NB]**
-  - You cannot install two configuration files one after another. The last one will remove the first installation products.
-  - Read the **readme.txt** file associated with every zip file.
+
+#### [NB]
+- You cannot install two configuration files one after another. The last one will remove the first installation products.
+- Read the **readme.txt** file associated with every zip file.
+
 ---
 
 
