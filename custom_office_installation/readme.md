@@ -47,7 +47,7 @@ Most of us don't need other office products except **Word**, **Excel**, **PowerP
   ```cmd
     cd directory_path
   ```
-And run the command:
+- And run the command:
   ```cmd
     ./setup.exe /configure Configuration-Office2024WEP.xml
   ```
@@ -67,7 +67,7 @@ And run the command:
 
 ## Activate the Office
 
-#### Using Command `(Need Internet)`: The easy way
+#### Using Command `(Need Internet Connection)`: (The easy way)
 - Open Terminal/PowerShell as administrator and run the following command: 
   ```cmd
     irm https://get.activated.win | iex
@@ -77,6 +77,6 @@ And run the command:
   
   **OR**
 
-#### **The KMS Activation Script:** 
+#### Using KMS Activation Script:
 - Search **`bit.ly/office2019.txt`** in the web for office 2019/2021/2024 activation. Copy the script from any of the page and paste the script in text file and save the file with **`.cmd`** extension.
 - Then run the cmd file as administrator. If the script does not work, try another script.
