@@ -9,6 +9,8 @@
 ## **Windows Installation Guide**
 Windows Installation, Debloat, Customization, Troubleshooting, Command Prompts
 
+* **[Fresh Windows Installation](https://github.com/abs-sayem/windows_utility/tree/main/windows_installation)**
+
 * **[Custom Windows Installation](https://github.com/abs-sayem/windows_utility/tree/main/windows_installation)**
     * [Debloat After a Fresh Installation](https://github.com/abs-sayem/windows_utility/tree/main/windows_installation#debloat-after-usual-installation): This process is useful to make windows lighter after installing a full version of windows 10 or 11. Using [`Chris Titus Debloat Tool`](https://github.com/ChrisTitusTech/winutil) gives us a window to select what we want to keep and what not. It also helps us providing a recommended setting of debloat for desktop and laptop seperately. It also support pause windows update for three years.
     * [A Clean Installation](https://github.com/abs-sayem/windows_utility/tree/main/windows_installation#for-clean-installation-not-recommended-for-the-beginners): This process is for the advanced user only. Here an `autounattened.xml` file is added with the windows's mounted files. It removes all the apps (even the browser, which is problematic for general user) except the basic functionality. The user has to install all the necessaries of his own. If user doesn't have advanced knowledge of windows, it is not recommended. Although the xml file supports customization, but to customize it needs advance knowledge of windows system.
