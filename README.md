@@ -9,7 +9,7 @@
 ## **Windows Installation Guide**
 Windows Installation, Debloat, Customization, Troubleshooting, Command Prompts
 
-* **[Fresh Windows Installation](https://github.com/abs-sayem/windows_utility/tree/main/windows_installation)**
+* **[Fresh Windows Installation](https://github.com/abs-sayem/windows_utility/tree/main/windows_installation):** - If you have windows iso file you can either make a bootable usb dirve or you can install windows using iso file directly. 
 
 * **[Custom Windows Installation](https://github.com/abs-sayem/windows_utility/tree/main/windows_installation)**
     * [Debloat After a Fresh Installation](https://github.com/abs-sayem/windows_utility/tree/main/windows_installation#debloat-after-usual-installation): This process is useful to make windows lighter after installing a full version of windows 10 or 11. Using [`Chris Titus Debloat Tool`](https://github.com/ChrisTitusTech/winutil) gives us a window to select what we want to keep and what not. It also helps us providing a recommended setting of debloat for desktop and laptop seperately. It also support pause windows update for three years.

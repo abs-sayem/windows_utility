@@ -1,5 +1,6 @@
 # Fresh Windows Installation
 
+### Directly from ISO File (without usb)
 * Collect or download windows iso file from windows official website like - [download windows 11 iso file](https://www.microsoft.com/en-us/software-download/windows11) or for other windows versions [check here](https://getintopc.com/softwares/operating-systems/)
 * Save or keep the iso file in a specific folder and extract it. It will create some folders and files including **`setup.exe`** file.
 * Open cmd as administrator, go to the extracted directory and run the following command:
